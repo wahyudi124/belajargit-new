@@ -9,6 +9,6 @@ void loop(){
     delay(1000);    
     pinMode(14,LOW);
     if(digitalRead(14) == 0){
-        
+        digitalWrite(13,HIGH);
     }
 }
